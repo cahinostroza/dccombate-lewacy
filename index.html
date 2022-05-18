@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/assets/styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="float-child">
+    <a id="theme-button">
+      Cambiar tema
+    </a>
+  </div>
+  <div class="header-buttons">
+    <a href="./index.html">
+      <button>
+        Log In
+      </button>
+    </a>
+    <a href="./src/views/register.html">
+      <button>
+        Registrarse
+      </button>
+    </a>
+  </div>
+  <div class="title-section">
+    <div class="title">
+      DCCombate Espacial
+    </div>
+  </div>
+  <div class="form">
+    <h1>
+      Ingresar
+    </h1>
+    <input type="text" placeholder="Nombre de usuario">
+    <input type="password" placeholder="Contraseña">
+    <a>
+      <div class="link">
+        ¿Olvidaste tu contraseña?
+      </div>
+    </a>
+    <button class="form-button">
+      <i class="material-icons">arrow_forward</i>
+    </button>
+  </div>
+  <div class="footer-buttons">
+    <a href="./src/views/about_us.html">
+      <button>
+        Sobre nosotros...
+      </button>
+    </a>
+    <a href="./src/views/instructions.html">
+      <button>
+        Instrucciones de Juego
+      </button>
+    </a>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>Seleccione un tema</p>
+      <img src="./src/assets/imgs/space.jpg" onclick="imageClicked('space.jpg')">
+      <img src="./src/assets/imgs/space1.jpg" onclick="imageClicked('space1.jpg')">
+      <img src="./src/assets/imgs/space2.jpg" onclick="imageClicked('space2.jpg')">
+      <img src="./src/assets/imgs/space3.jpg" onclick="imageClicked('space3.jpg')">
+      <img src="./src/assets/imgs/space4.jpg" onclick="imageClicked('space4.jpg')">
+      <img src="./src/assets/imgs/space5.jpg" onclick="imageClicked('space5.jpg')">
+    </div>
+  
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
